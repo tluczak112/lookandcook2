@@ -1,0 +1,87 @@
+#navbarUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width:100%;
+}
+
+.navbarli {
+    float:left;
+}
+
+a {
+    font-family: 'chalk', Fallback, serif;
+}
+
+h1{
+    font-family: 'chalk', Fallback, serif;
+
+}
+
+.navbarli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbarlilog a{
+    float:right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbarlilog a:hover {
+    background-color: #111;
+}
+
+.navbarli a:hover {
+    background-color: #111;
+}
+
+
+#navbar {
+    display: block;
+}
+
+/* .navbarli:last-child {
+    border-right: none;
+} */
+
+
+#directory select {
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    
+}
+
+#logInOut {
+    display:none;
+    position:fixed;
+    top:0;
+    right:0;
+}
+
+#navbarSELECT {
+    background-color:gray;
+    background: lemonchiffon;
+}
+
+
+
+@media (max-width: 440px) {
+    #directory ul     { display: none; }
+    #directory select { display: inline-block; }
+    #logInOut {display:inline-block}
+  }
+
+  
